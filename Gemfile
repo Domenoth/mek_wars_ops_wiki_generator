@@ -35,4 +35,11 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
+
+group :test, :development do
+  gem 'shoulda'
+  gem 'mocha'
+  gem 'colored'
+  gem 'fakeweb'
+end
