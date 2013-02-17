@@ -1,4 +1,16 @@
 MekWarsOpsWikiGenerator::Application.routes.draw do
+  root to: "generate_wiki#form" 
+
+  get "generate_wiki/form"
+
+  post "generate_wiki/upload"
+
+  resources :operation_types
+
+
+  resources :operation_settings
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

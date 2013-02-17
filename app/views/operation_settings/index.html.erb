@@ -1,0 +1,31 @@
+<h1>Listing operation_settings</h1>
+
+<table>
+  <tr>
+    <th>Identifier</th>
+    <th>Default</th>
+    <th>Display</th>
+    <th>Operation Type</th>
+    <th>Export</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @operation_settings.each do |operation_setting| %>
+  <tr>
+    <td><%= operation_setting.identifier %></td>
+    <td><%= operation_setting.default_value %></td>
+    <td><%= operation_setting.display %></td>
+    <td><%= operation_setting.operation_type.name %></td>
+    <td><%= operation_setting.export %></td>
+    <td><%= link_to 'Show', operation_setting %></td>
+    <td><%= link_to 'Edit', edit_operation_setting_path(operation_setting) %></td>
+    <td><%= link_to 'Destroy', operation_setting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Operation setting', new_operation_setting_path %>

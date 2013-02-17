@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Identifier:</b>
+  <%= @operation_setting.identifier %>
+</p>
+
+<p>
+  <b>Default:</b>
+  <%= @operation_setting.default_value %>
+</p>
+
+<p>
+  <b>Display:</b>
+  <%= @operation_setting.display %>
+</p>
+
+<p>
+  <b>Operation Type:</b>
+  <%= @operation_setting.operation_type.name %>
+</p>
+
+<p>
+  <b>Export:</b>
+  <%= @operation_setting.export %>
+</p>
+
+
+<%= link_to 'Edit', edit_operation_setting_path(@operation_setting) %> |
+<%= link_to 'Back', operation_settings_path %>

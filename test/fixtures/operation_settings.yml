@@ -1,0 +1,2892 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+MaxAttackerBV:
+  identifier: MaxAttackerBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerBV:
+  identifier: MinAttackerBV
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderBV:
+  identifier: MaxDefenderBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderBV:
+  identifier: MinDefenderBV
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerMeks:
+  identifier: MaxAttackerMeks
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerMeks:
+  identifier: MinAttackerMeks
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderMeks:
+  identifier: MaxDefenderMeks
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderMeks:
+  identifier: MinDefenderMeks
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerVehicles:
+  identifier: MaxAttackerVehicles
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerVehicles:
+  identifier: MinAttackerVehicles
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderVehicles:
+  identifier: MaxDefenderVehicles
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderVehicles:
+  identifier: MinDefenderVehicles
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerInfantry:
+  identifier: MaxAttackerInfantry
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerInfantry:
+  identifier: MinAttackerInfantry
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderInfantry:
+  identifier: MaxDefenderInfantry
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderInfantry:
+  identifier: MinDefenderInfantry
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerAero:
+  identifier: MaxAttackerAero
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerAero:
+  identifier: MinAttackerAero
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderAero:
+  identifier: MaxDefenderAero
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderAero:
+  identifier: MinDefenderAero
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+EnforceAttackerAeroRatio:
+  identifier: EnforceAttackerAeroRatio
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+EnforceDefenderAeroRatio:
+  identifier: EnforceDefenderAeroRatio
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+CountSupportUnitsInAeroRatio:
+  identifier: CountSupportUnitsInAeroRatio
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderAeroPercent:
+  identifier: MaxDefenderAeroPercent
+  default_value: 100
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderAeroPercent:
+  identifier: MinDefenderAeroPercent
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerAeroPercent:
+  identifier: MaxAttackerAeroPercent
+  default_value: 100
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerAeroPercent:
+  identifier: MinAttackerAeroPercent
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerNonInfantry:
+  identifier: MaxAttackerNonInfantry
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerNonInfantry:
+  identifier: MinAttackerNonInfantry
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderNonInfantry:
+  identifier: MaxDefenderNonInfantry
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderNonInfantry:
+  identifier: MinDefenderNonInfantry
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerWalk:
+  identifier: MinAttackerWalk
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderWalk:
+  identifier: MinDefenderWalk
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerJump:
+  identifier: MinAttackerJump
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderJump:
+  identifier: MinDefenderJump
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerJump:
+  identifier: MaxAttackerJump
+  default_value: 99
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderJump:
+  identifier: MaxDefenderJump
+  default_value: 99
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerUnitTonnage:
+  identifier: MaxAttackerUnitTonnage
+  default_value: 100
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderUnitTonnage:
+  identifier: MaxDefenderUnitTonnage
+  default_value: 100
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerUnitTonnage:
+  identifier: MinAttackerUnitTonnage
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderUnitTonnage:
+  identifier: MinDefenderUnitTonnage
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerUnitBV:
+  identifier: MaxAttackerUnitBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderUnitBV:
+  identifier: MaxDefenderUnitBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerUnitBV:
+  identifier: MinAttackerUnitBV
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderUnitBV:
+  identifier: MinDefenderUnitBV
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerUnitBVSpread:
+  identifier: MaxAttackerUnitBVSpread
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderUnitBVSpread:
+  identifier: MaxDefenderUnitBVSpread
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerUnitBVSpread:
+  identifier: MinAttackerUnitBVSpread
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderUnitBVSpread:
+  identifier: MinDefenderUnitBVSpread
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+HighestAttackerPilotSkillTotal:
+  identifier: HighestAttackerPilotSkillTotal
+  default_value: 20
+  display: 
+  operation_type: short
+
+LowestAttackerPilotSkillTotal:
+  identifier: LowestAttackerPilotSkillTotal
+  default_value: 0
+  display: 
+  operation_type: short
+
+HighestAttackerPiloting:
+  identifier: HighestAttackerPiloting
+  default_value: 9
+  display: 
+  operation_type: short
+
+LowestAttackerPiloting:
+  identifier: LowestAttackerPiloting
+  default_value: 0
+  display: 
+  operation_type: short
+
+HighestAttackerGunnery:
+  identifier: HighestAttackerGunnery
+  default_value: 9
+  display: 
+  operation_type: short
+
+LowestAttackerGunnery:
+  identifier: LowestAttackerGunnery
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerAverageArmySkillMax:
+  identifier: AttackerAverageArmySkillMax
+  default_value: 20
+  display: 
+  operation_type: short
+  export: true
+
+AttackerAverageArmySkillMin:
+  identifier: AttackerAverageArmySkillMin
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+HighestDefenderPilotSkillTotal:
+  identifier: HighestDefenderPilotSkillTotal
+  default_value: 20
+  display: 
+  operation_type: short
+
+LowestDefenderPilotSkillTotal:
+  identifier: LowestDefenderPilotSkillTotal
+  default_value: 0
+  display: 
+  operation_type: short
+
+HighestDefenderPiloting:
+  identifier: HighestDefenderPiloting
+  default_value: 9
+  display: 
+  operation_type: short
+
+LowestDefenderPiloting:
+  identifier: LowestDefenderPiloting
+  default_value: 0
+  display: 
+  operation_type: short
+
+HighestDefenderGunnery:
+  identifier: HighestDefenderGunnery
+  default_value: 9
+  display: 
+  operation_type: short
+
+LowestDefenderGunnery:
+  identifier: LowestDefenderGunnery
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderAverageArmySkillMax:
+  identifier: DefenderAverageArmySkillMax
+  default_value: 20
+  display: 
+  operation_type: short
+  export: true
+
+DefenderAverageArmySkillMin:
+  identifier: DefenderAverageArmySkillMin
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+CountVehsForSpread:
+  identifier: CountVehsForSpread
+  default_value: true
+  display: 
+  operation_type: short
+
+CountProtosForSpread:
+  identifier: CountProtosForSpread
+  default_value: true
+  display: 
+  operation_type: short
+
+CountInfForSpread:
+  identifier: CountInfForSpread
+  default_value: true
+  display: 
+  operation_type: short
+
+CountAerosForSpread:
+  identifier: CountAerosForSpread
+  default_value: true
+  display: 
+  operation_type: short
+
+ProtosMustbeGrouped:
+  identifier: ProtosMustbeGrouped
+  default_value: true
+  display: 
+  operation_type: short
+
+MULArmiesOnly:
+  identifier: MULArmiesOnly
+  default_value: false
+  display: 
+  operation_type: short
+
+RepodOmniUnitsToBase:
+  identifier: RepodOmniUnitsToBase
+  default_value: 
+  display: 
+  operation_type: short
+
+MaxTotalAttackerTonnage:
+  identifier: MaxTotalAttackerTonnage
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+MaxTotalDefenderTonnage:
+  identifier: MaxTotalDefenderTonnage
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+MinTotalAttackerTonnage:
+  identifier: MinTotalAttackerTonnage
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinTotalDefenderTonnage:
+  identifier: MinTotalDefenderTonnage
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerCostMoney:
+  identifier: AttackerCostMoney
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+AttackerCostInfluence:
+  identifier: AttackerCostInfluence
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+AttackerCostReward:
+  identifier: AttackerCostReward
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DefenderCostMoney:
+  identifier: DefenderCostMoney
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DefenderCostInfluence:
+  identifier: DefenderCostInfluence
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DefenderCostReward:
+  identifier: DefenderCostReward
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+AttackerAllowedMeks:
+  identifier: AttackerAllowedMeks
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+AttackerAllowedVehs:
+  identifier: AttackerAllowedVehs
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+AttackerAllowedInf:
+  identifier: AttackerAllowedInf
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+AttackerAllowedAeros:
+  identifier: AttackerAllowedAeros
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+AttackerOmniMeksOnly:
+  identifier: AttackerOmniMeksOnly
+  default_value: false
+  display: 
+  operation_type: short
+
+DefenderAllowedMeks:
+  identifier: DefenderAllowedMeks
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+DefenderAllowedVehs:
+  identifier: DefenderAllowedVehs
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+DefenderAllowedInf:
+  identifier: DefenderAllowedInf
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+DefenderAllowedAeros:
+  identifier: DefenderAllowedAeros
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+DefenderOmniMeksOnly:
+  identifier: DefenderOmniMeksOnly
+  default_value: false
+  display: 
+  operation_type: short
+
+AttackerPoweredInfAllowed:
+  identifier: AttackerPoweredInfAllowed
+  default_value: false
+  display: 
+  operation_type: short
+
+DefenderPoweredInfAllowed:
+  identifier: DefenderPoweredInfAllowed
+  default_value: false
+  display: 
+  operation_type: short
+
+AttackerStandardInfAllowed:
+  identifier: AttackerStandardInfAllowed
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+DefenderStandardInfAllowed:
+  identifier: DefenderStandardInfAllowed
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerRating:
+  identifier: MinAttackerRating
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerRating:
+  identifier: MaxAttackerRating
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderRating:
+  identifier: MinDefenderRating
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderRating:
+  identifier: MaxDefenderRating
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerXP:
+  identifier: MinAttackerXP
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxAttackerXP:
+  identifier: MaxAttackerXP
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinDefenderXP:
+  identifier: MinDefenderXP
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+MaxDefenderXP:
+  identifier: MaxDefenderXP
+  default_value: 10000000
+  display: 
+  operation_type: short
+  export: true
+
+MinAttackerGamesPlayed:
+  identifier: MinAttackerGamesPlayed
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerGamesPlayed:
+  identifier: MaxAttackerGamesPlayed
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+MinDefenderGamesPlayed:
+  identifier: MinDefenderGamesPlayed
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderGamesPlayed:
+  identifier: MaxDefenderGamesPlayed
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+BotControlsAll:
+  identifier: BotControlsAll
+  default_value: false
+  display: 
+  operation_type: short
+
+BotsAllOnSameTeam:
+  identifier: BotsAllOnSameTeam
+  default_value: false
+  display: 
+  operation_type: short
+
+DefenderReceivesAutoArtillery:
+  identifier: DefenderReceivesAutoArtillery
+  default_value: false
+  display: 
+  operation_type: short
+
+AttackerReceivesAutoArtillery:
+  identifier: AttackerReceivesAutoArtillery
+  default_value: false
+  display: 
+  operation_type: short
+
+DefenderFlatArtilleryModifier:
+  identifier: DefenderFlatArtilleryModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerFlatArtilleryModifier:
+  identifier: AttackerFlatArtilleryModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPercentArtilleryModifier:
+  identifier: DefenderPercentArtilleryModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPercentArtilleryModifier:
+  identifier: AttackerPercentArtilleryModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinDefenderArtilleryBV:
+  identifier: MinDefenderArtilleryBV
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinAttackerArtilleryBV:
+  identifier: MinAttackerArtilleryBV
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderArtilleryBV:
+  identifier: MaxDefenderArtilleryBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+MaxAttackerArtilleryBV:
+  identifier: MaxAttackerArtilleryBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+DefenderReceivesGunEmplacement:
+  identifier: DefenderReceivesGunEmplacement
+  default_value: false
+  display: 
+  operation_type: short
+
+AttackerReceivesGunEmplacement:
+  identifier: AttackerReceivesGunEmplacement
+  default_value: false
+  display: 
+  operation_type: short
+
+DefenderFlatGunEmplacementModifier:
+  identifier: DefenderFlatGunEmplacementModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerFlatGunEmplacementModifier:
+  identifier: AttackerFlatGunEmplacementModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPercentGunEmplacementModifier:
+  identifier: DefenderPercentGunEmplacementModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPercentGunEmplacementModifier:
+  identifier: AttackerPercentGunEmplacementModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinDefenderGunEmplacementBV:
+  identifier: MinDefenderGunEmplacementBV
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinAttackerGunEmplacementBV:
+  identifier: MinAttackerGunEmplacementBV
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderGunEmplacementBV:
+  identifier: MaxDefenderGunEmplacementBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+MaxAttackerGunEmplacementBV:
+  identifier: MaxAttackerGunEmplacementBV
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+DefenderReceivesMines:
+  identifier: DefenderReceivesMines
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+AttackerReceivesMines:
+  identifier: AttackerReceivesMines
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+DefenderBVPerConventional:
+  identifier: DefenderBVPerConventional
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerBVPerConventional:
+  identifier: AttackerBVPerConventional
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderTonPerConventional:
+  identifier: DefenderTonPerConventional
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerTonPerConventional:
+  identifier: AttackerTonPerConventional
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderBVPerVibra:
+  identifier: DefenderBVPerVibra
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerBVPerVibra:
+  identifier: AttackerBVPerVibra
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderTonPerVibra:
+  identifier: DefenderTonPerVibra
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerTonPerVibra:
+  identifier: AttackerTonPerVibra
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderReceivesMULArmy:
+  identifier: DefenderReceivesMULArmy
+  default_value: false
+  display: 
+  operation_type: short
+
+AttackerReceivesMULArmy:
+  identifier: AttackerReceivesMULArmy
+  default_value: false
+  display: 
+  operation_type: short
+
+MinDefenderMulArmies:
+  identifier: MinDefenderMulArmies
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderMulArmies:
+  identifier: MaxDefenderMulArmies
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMulArmyList:
+  identifier: DefenderMulArmyList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinDefenderMulMeks:
+  identifier: MinDefenderMulMeks
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderMulMeks:
+  identifier: MaxDefenderMulMeks
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMulMekList:
+  identifier: DefenderMulMekList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinDefenderMulVehicles:
+  identifier: MinDefenderMulVehicles
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderMulVehicles:
+  identifier: MaxDefenderMulVehicles
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMulVehicleList:
+  identifier: DefenderMulVehicleList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinDefenderMulInf:
+  identifier: MinDefenderMulInf
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderMulInf:
+  identifier: MaxDefenderMulInf
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMulInfList:
+  identifier: DefenderMulInfList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinDefenderMulBA:
+  identifier: MinDefenderMulBA
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderMulBA:
+  identifier: MaxDefenderMulBA
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMulBAList:
+  identifier: DefenderMulBAList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinDefenderMulAero:
+  identifier: MinDefenderMulAero
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderMulAero:
+  identifier: MaxDefenderMulAero
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMulAeroList:
+  identifier: DefenderMulAeroList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinDefenderMulProto:
+  identifier: MinDefenderMulProto
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxDefenderMulProto:
+  identifier: MaxDefenderMulProto
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMulProtoList:
+  identifier: DefenderMulProtoList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinAttackerMulArmies:
+  identifier: MinAttackerMulArmies
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerMulArmies:
+  identifier: MaxAttackerMulArmies
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMulArmyList:
+  identifier: AttackerMulArmyList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinAttackerMulMeks:
+  identifier: MinAttackerMulMeks
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerMulMeks:
+  identifier: MaxAttackerMulMeks
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMulMekList:
+  identifier: AttackerMulMekList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinAttackerMulVehicles:
+  identifier: MinAttackerMulVehicles
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerMulVehicles:
+  identifier: MaxAttackerMulVehicles
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMulVehicleList:
+  identifier: AttackerMulVehicleList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinAttackerMulInf:
+  identifier: MinAttackerMulInf
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerMulInf:
+  identifier: MaxAttackerMulInf
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMulInfList:
+  identifier: AttackerMulInfList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinAttackerMulBA:
+  identifier: MinAttackerMulBA
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerMulBA:
+  identifier: MaxAttackerMulBA
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMulBAList:
+  identifier: AttackerMulBAList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinAttackerMulAero:
+  identifier: MinAttackerMulAero
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerMulAero:
+  identifier: MaxAttackerMulAero
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMulAeroList:
+  identifier: AttackerMulAeroList
+  default_value: 
+  display: 
+  operation_type: short
+
+MinAttackerMulProto:
+  identifier: MinAttackerMulProto
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxAttackerMulProto:
+  identifier: MaxAttackerMulProto
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMulProtoList:
+  identifier: AttackerMulProtoList
+  default_value: 
+  display: 
+  operation_type: short
+
+BaseAttackerPayCBills:
+  identifier: BaseAttackerPayCBills
+  default_value: 0
+  display: 
+  operation_type: short
+
+BaseDefenderPayCBills:
+  identifier: BaseDefenderPayCBills
+  default_value: 0
+  display: 
+  operation_type: short
+
+BaseAttackerPayInfluence:
+  identifier: BaseAttackerPayInfluence
+  default_value: 0
+  display: 
+  operation_type: short
+
+BaseDefenderPayInfluence:
+  identifier: BaseDefenderPayInfluence
+  default_value: 0
+  display: 
+  operation_type: short
+
+BaseAttackerPayExperience:
+  identifier: BaseAttackerPayExperience
+  default_value: 0
+  display: 
+  operation_type: short
+
+BaseDefenderPayExperience:
+  identifier: BaseDefenderPayExperience
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPayBVforCBill:
+  identifier: AttackerPayBVforCBill
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPayBVforCBill:
+  identifier: DefenderPayBVforCBill
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPayBVforInfluence:
+  identifier: AttackerPayBVforInfluence
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPayBVforInfluence:
+  identifier: DefenderPayBVforInfluence
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPayBVforExperience:
+  identifier: AttackerPayBVforExperience
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPayBVforExperience:
+  identifier: DefenderPayBVforExperience
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPayBVforRP:
+  identifier: AttackerPayBVforRP
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPayBVforRP:
+  identifier: DefenderPayBVforRP
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerWinModifierCBillsFlat:
+  identifier: AttackerWinModifierCBillsFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderWinModifierCBillsFlat:
+  identifier: DefenderWinModifierCBillsFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerLossModifierCBillsFlat:
+  identifier: AttackerLossModifierCBillsFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderLossModifierCBillsFlat:
+  identifier: DefenderLossModifierCBillsFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerWinModifierCBillsPercent:
+  identifier: AttackerWinModifierCBillsPercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderWinModifierCBillsPercent:
+  identifier: DefenderWinModifierCBillsPercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerLossModifierCBillsPercent:
+  identifier: AttackerLossModifierCBillsPercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderLossModifierCBillsPercent:
+  identifier: DefenderLossModifierCBillsPercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerWinModifierInfluenceFlat:
+  identifier: AttackerWinModifierInfluenceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderWinModifierInfluenceFlat:
+  identifier: DefenderWinModifierInfluenceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerLossModifierInfluenceFlat:
+  identifier: AttackerLossModifierInfluenceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderLossModifierInfluenceFlat:
+  identifier: DefenderLossModifierInfluenceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerWinModifierInfluencePercent:
+  identifier: AttackerWinModifierInfluencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderWinModifierInfluencePercent:
+  identifier: DefenderWinModifierInfluencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerLossModifierInfluencePercent:
+  identifier: AttackerLossModifierInfluencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderLossModifierInfluencePercent:
+  identifier: DefenderLossModifierInfluencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerWinModifierExperienceFlat:
+  identifier: AttackerWinModifierExperienceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderWinModifierExperienceFlat:
+  identifier: DefenderWinModifierExperienceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerLossModifierExperienceFlat:
+  identifier: AttackerLossModifierExperienceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderLossModifierExperienceFlat:
+  identifier: DefenderLossModifierExperienceFlat
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerWinModifierExperiencePercent:
+  identifier: AttackerWinModifierExperiencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderWinModifierExperiencePercent:
+  identifier: DefenderWinModifierExperiencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerLossModifierExperiencePercent:
+  identifier: AttackerLossModifierExperiencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderLossModifierExperiencePercent:
+  identifier: DefenderLossModifierExperiencePercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+RPForLoser:
+  identifier: RPForLoser
+  default_value: 0
+  display: 
+  operation_type: short
+
+RPForDefender:
+  identifier: RPForDefender
+  default_value: 0
+  display: 
+  operation_type: short
+
+RPForAttacker:
+  identifier: RPForAttacker
+  default_value: 0
+  display: 
+  operation_type: short
+
+RPForWinner:
+  identifier: RPForWinner
+  default_value: 0
+  display: 
+  operation_type: short
+
+OnlyGiveRPtoWinners:
+  identifier: OnlyGiveRPtoWinners
+  default_value: false
+  display: 
+  operation_type: short
+
+MinBVDifferenceForFullPay:
+  identifier: MinBVDifferenceForFullPay
+  default_value: 0
+  display: 
+  operation_type: short
+
+BVFailurePaymentModifier:
+  identifier: BVFailurePaymentModifier
+  default_value: 0
+  display: 
+  operation_type: short
+
+WinnerAlwaysSalvagesOwnUnits:
+  identifier: WinnerAlwaysSalvagesOwnUnits
+  default_value: true
+  display: 
+  operation_type: short
+
+SupportUnitsAreSalvageable:
+  identifier: SupportUnitsAreSalvageable
+  default_value: false
+  display: 
+  operation_type: short
+
+DefenderAlwaysSalvagesOwnUnits:
+  identifier: DefenderAlwaysSalvagesOwnUnits
+  default_value: false
+  display: 
+  operation_type: short
+
+AttackerAlwaysSalvagesOwnUnits:
+  identifier: AttackerAlwaysSalvagesOwnUnits
+  default_value: false
+  display: 
+  operation_type: short
+
+BaseAttackerSalvagePercent:
+  identifier: BaseAttackerSalvagePercent
+  default_value: 50
+  display: 
+  operation_type: short
+
+BaseDefenderSalvagePercent:
+  identifier: BaseDefenderSalvagePercent
+  default_value: 50
+  display: 
+  operation_type: short
+
+AttackerSalvageAdjustment:
+  identifier: AttackerSalvageAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderSalvageAdjustment:
+  identifier: DefenderSalvageAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+BVToBoostAttackerSalvageCost:
+  identifier: BVToBoostAttackerSalvageCost
+  default_value: 150
+  display: 
+  operation_type: short
+
+BVToBoostDefenderSalvageCost:
+  identifier: BVToBoostDefenderSalvageCost
+  default_value: 150
+  display: 
+  operation_type: short
+
+AttackerSalvageCostModifier:
+  identifier: AttackerSalvageCostModifier
+  default_value: 1
+  display: 
+  operation_type: short
+
+DefenderSalvageCostModifier:
+  identifier: DefenderSalvageCostModifier
+  default_value: 1
+  display: 
+  operation_type: short
+
+FledUnitSalvageChance:
+  identifier: FledUnitSalvageChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+FledUnitScrappedChance:
+  identifier: FledUnitScrappedChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+PushedUnitSalvageChance:
+  identifier: PushedUnitSalvageChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+PushedUnitScrappedChance:
+  identifier: PushedUnitScrappedChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+EnginedUnitsScrappedChance:
+  identifier: EnginedUnitsScrappedChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+ForcedSalvageUnitsScrappedChance:
+  identifier: ForcedSalvageUnitsScrappedChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+GyroedUnitsScrappedChance:
+  identifier: GyroedUnitsScrappedChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+LeggedUnitsScrappedChance:
+  identifier: LeggedUnitsScrappedChance
+  default_value: 0
+  display: 
+  operation_type: short
+
+UseSeparateLegAndGyroScrappedChance:
+  identifier: UseSeparateLegAndGyroScrappedChance
+  default_value: false
+  display: 
+  operation_type: short
+
+AllowSOLToUse:
+  identifier: AllowSOLToUse
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+AllowAgainstSOL:
+  identifier: AllowAgainstSOL
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+AllowNonConqToUse:
+  identifier: AllowNonConqToUse
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+AllowAgainstNonConq:
+  identifier: AllowAgainstNonConq
+  default_value: true
+  display: 
+  operation_type: short
+  export: true
+
+SOLPilotsGainXP:
+  identifier: SOLPilotsGainXP
+  default_value: true
+  display: 
+  operation_type: short
+
+HousePilotsGainXP:
+  identifier: HousePilotsGainXP
+  default_value: true
+  display: 
+  operation_type: short
+
+SOLPilotsCheckLevelUp:
+  identifier: SOLPilotsCheckLevelUp
+  default_value: true
+  display: 
+  operation_type: short
+
+HousePilotsCheckLevelUp:
+  identifier: HousePilotsCheckLevelUp
+  default_value: true
+  display: 
+  operation_type: short
+
+PayAllAsWinners:
+  identifier: PayAllAsWinners
+  default_value: false
+  display: 
+  operation_type: short
+
+PayTechsForGame:
+  identifier: PayTechsForGame
+  default_value: true
+  display: 
+  operation_type: short
+
+CountGameForRanking:
+  identifier: CountGameForRanking
+  default_value: true
+  display: 
+  operation_type: short
+
+CountGameForProduction:
+  identifier: CountGameForProduction
+  default_value: 1.0
+  display: 
+  operation_type: short
+
+NoStatisticsMode:
+  identifier: NoStatisticsMode
+  default_value: false
+  display: 
+  operation_type: short
+
+NoDestructionMode:
+  identifier: NoDestructionMode
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+AllowInFaction:
+  identifier: AllowInFaction
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+AttackerBaseConquestAmount:
+  identifier: AttackerBaseConquestAmount
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerConquestBVAdjustment:
+  identifier: AttackerConquestBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerConquestUnitAdjustment:
+  identifier: AttackerConquestUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderBaseConquestAmount:
+  identifier: DefenderBaseConquestAmount
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderConquestBVAdjustment:
+  identifier: DefenderConquestBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderConquestUnitAdjustment:
+  identifier: DefenderConquestUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerBaseDelayAmount:
+  identifier: AttackerBaseDelayAmount
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerDelayBVAdjustment:
+  identifier: AttackerDelayBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerDelayUnitAdjustment:
+  identifier: AttackerDelayUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderBaseDelayAmount:
+  identifier: DefenderBaseDelayAmount
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderDelayBVAdjustment:
+  identifier: DefenderDelayBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderDelayUnitAdjustment:
+  identifier: DefenderDelayUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerBasePPAmount:
+  identifier: AttackerBasePPAmount
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPPBVAdjustment:
+  identifier: AttackerPPBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerPPUnitAdjustment:
+  identifier: AttackerPPUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderBasePPAmount:
+  identifier: DefenderBasePPAmount
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPPBVAdjustment:
+  identifier: DefenderPPBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderPPUnitAdjustment:
+  identifier: DefenderPPUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerBaseUnitsTaken:
+  identifier: AttackerBaseUnitsTaken
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerUnitsBVAdjustment:
+  identifier: AttackerUnitsBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerUnitsUnitAdjustment:
+  identifier: AttackerUnitsUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerBaseFactoryUnitsTaken:
+  identifier: AttackerBaseFactoryUnitsTaken
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerFactoryUnitsBVAdjustment:
+  identifier: AttackerFactoryUnitsBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerFactoryUnitsUnitAdjustment:
+  identifier: AttackerFactoryUnitsUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerAwardFactoryUnitsTakenToPlayerBVPercent:
+  identifier: AttackerAwardFactoryUnitsTakenToPlayerBVPercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerAwardFactoryUnitsTakenToPlayerMaxBVPercent:
+  identifier: AttackerAwardFactoryUnitsTakenToPlayerMaxBVPercent
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerAwardFactoryUnitsTakenToPlayerMax:
+  identifier: AttackerAwardFactoryUnitsTakenToPlayerMax
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerUnitsTakenBeforeFightStarts:
+  identifier: AttackerUnitsTakenBeforeFightStarts
+  default_value: false
+  display: 
+  operation_type: short
+
+AttackerAllowAgainstUnclaimedLand:
+  identifier: AttackerAllowAgainstUnclaimedLand
+  default_value: false
+  display: 
+  operation_type: short
+
+ForceProduceAndCaptureMeks:
+  identifier: ForceProduceAndCaptureMeks
+  default_value: true
+  display: 
+  operation_type: short
+
+ForceProduceAndCaptureVees:
+  identifier: ForceProduceAndCaptureVees
+  default_value: true
+  display: 
+  operation_type: short
+
+ForceProduceAndCaptureInfs:
+  identifier: ForceProduceAndCaptureInfs
+  default_value: true
+  display: 
+  operation_type: short
+
+ForceProduceAndCaptureBAs:
+  identifier: ForceProduceAndCaptureBAs
+  default_value: true
+  display: 
+  operation_type: short
+
+ForceProduceAndCaptureAeros:
+  identifier: ForceProduceAndCaptureAeros
+  default_value: true
+  display: 
+  operation_type: short
+
+ForceProduceAndCaptureProtos:
+  identifier: ForceProduceAndCaptureProtos
+  default_value: true
+  display: 
+  operation_type: short
+
+AttackerTargetOpAdjustment:
+  identifier: AttackerTargetOpAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderTargetOpAdjustment:
+  identifier: DefenderTargetOpAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+ConquestAmountCap:
+  identifier: ConquestAmountCap
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+DelayAmountCap:
+  identifier: DelayAmountCap
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+PPCapptureCap:
+  identifier: PPCapptureCap
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+UnitCaptureCap:
+  identifier: UnitCaptureCap
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+PPDestructionCap:
+  identifier: PPDestructionCap
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+UnitDestructionCap:
+  identifier: UnitDestructionCap
+  default_value: 10000000
+  display: 
+  operation_type: short
+
+BaseUnitsDestroyed:
+  identifier: BaseUnitsDestroyed
+  default_value: 0
+  display: 
+  operation_type: short
+
+DestroyedUnitsBVAdjustment:
+  identifier: DestroyedUnitsBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DestroyedUnitsUnitAdjustment:
+  identifier: DestroyedUnitsUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+BasePPDestroyed:
+  identifier: BasePPDestroyed
+  default_value: 0
+  display: 
+  operation_type: short
+
+DestroyedPPBVAdjustment:
+  identifier: DestroyedPPBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+DestroyedPPUnitAdjustment:
+  identifier: DestroyedPPUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+TimeToNondefensePenalty:
+  identifier: TimeToNondefensePenalty
+  default_value: 60
+  display: 
+  operation_type: short
+
+LeechesToDeactivate:
+  identifier: LeechesToDeactivate
+  default_value: 1
+  display: 
+  operation_type: short
+
+FlatRPChickenPenalty:
+  identifier: FlatRPChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+FlatExpChickenPenalty:
+  identifier: FlatExpChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+FlatInfluenceChickenPenalty:
+  identifier: FlatInfluenceChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+FlatCBillChickenPenalty:
+  identifier: FlatCBillChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+PercentRPChickenPenalty:
+  identifier: PercentRPChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+PercentExpChickenPenalty:
+  identifier: PercentExpChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+PercentInfluenceChickenPenalty:
+  identifier: PercentInfluenceChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+PercentCBillChickenPenalty:
+  identifier: PercentCBillChickenPenalty
+  default_value: 0
+  display: 
+  operation_type: short
+
+ConquestPerLeech:
+  identifier: ConquestPerLeech
+  default_value: 0
+  display: 
+  operation_type: short
+
+DelayPerLeech:
+  identifier: DelayPerLeech
+  default_value: 0
+  display: 
+  operation_type: short
+
+ProdPointsPerLeech:
+  identifier: ProdPointsPerLeech
+  default_value: 0
+  display: 
+  operation_type: short
+
+UnitsPerLeech:
+  identifier: UnitsPerLeech
+  default_value: 0
+  display: 
+  operation_type: short
+
+FailurePenalty:
+  identifier: FailurePenalty
+  default_value: 1000
+  display: 
+  operation_type: short
+
+BaseUnitXP:
+  identifier: BaseUnitXP
+  default_value: 0
+  display: 
+  operation_type: short
+
+UnitXPUnitsAdjustment:
+  identifier: UnitXPUnitsAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+UnitXPBVAdjustment:
+  identifier: UnitXPBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: short
+
+WinnerBonusUnitXP:
+  identifier: WinnerBonusUnitXP
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderBonusUnitXP:
+  identifier: DefenderBonusUnitXP
+  default_value: 0
+  display: 
+  operation_type: short
+
+KillBonusUnitXP:
+  identifier: KillBonusUnitXP
+  default_value: 5
+  display: 
+  operation_type: short
+
+KillBonusXPforBV:
+  identifier: KillBonusXPforBV
+  default_value: 0
+  display: 
+  operation_type: short
+
+TotalBuildings:
+  identifier: TotalBuildings
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinBuildingsForOp:
+  identifier: MinBuildingsForOp
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinFloors:
+  identifier: MinFloors
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxFloors:
+  identifier: MaxFloors
+  default_value: 0
+  display: 
+  operation_type: short
+
+MinCF:
+  identifier: MinCF
+  default_value: 0
+  display: 
+  operation_type: short
+
+MaxCF:
+  identifier: MaxCF
+  default_value: 0
+  display: 
+  operation_type: short
+
+BuildingType:
+  identifier: BuildingType
+  default_value: 1
+  display: 
+  operation_type: short
+
+BuildingsStartOnMapEdge:
+  identifier: BuildingsStartOnMapEdge
+  default_value: true
+  display: 
+  operation_type: short
+
+DelayPerBuilding:
+  identifier: DelayPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerExpPerBuilding:
+  identifier: AttackerExpPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMoneyPerBuilding:
+  identifier: AttackerMoneyPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerFluPerBuilding:
+  identifier: AttackerFluPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerRPPerBuilding:
+  identifier: AttackerRPPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+AttackerMinBuildingsIfAttackerWins:
+  identifier: AttackerMinBuildingsIfAttackerWins
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderExpPerBuilding:
+  identifier: DefenderExpPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderMoneyPerBuilding:
+  identifier: DefenderMoneyPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderFluPerBuilding:
+  identifier: DefenderFluPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+DefenderRPPerBuilding:
+  identifier: DefenderRPPerBuilding
+  default_value: 0
+  display: 
+  operation_type: short
+
+LegalAttackFactions:
+  identifier: LegalAttackFactions
+  default_value: 
+  display: 
+  operation_type: short
+  export: true
+
+IllegalAttackFactions:
+  identifier: IllegalAttackFactions
+  default_value: 
+  display: 
+  operation_type: short
+  export: true
+
+LegalDefendFactions:
+  identifier: LegalDefendFactions
+  default_value: 
+  display: 
+  operation_type: short
+  export: true
+
+IllegalDefendFactions:
+  identifier: IllegalDefendFactions
+  default_value: 
+  display: 
+  operation_type: short
+  export: true
+
+RCGUseCityGenerator:
+  identifier: RCGUseCityGenerator
+  default_value: false
+  display: 
+  operation_type: short
+
+RCGCityType:
+  identifier: RCGCityType
+  default_value: GRID
+  display: 
+  operation_type: short
+
+RCGCityBlocks:
+  identifier: RCGCityBlocks
+  default_value: 4
+  display: 
+  operation_type: short
+
+RCGMinCF:
+  identifier: RCGMinCF
+  default_value: 20
+  display: 
+  operation_type: short
+
+RCGMaxCF:
+  identifier: RCGMaxCF
+  default_value: 40
+  display: 
+  operation_type: short
+
+RCGMinFloors:
+  identifier: RCGMinFloors
+  default_value: 1
+  display: 
+  operation_type: short
+
+RCGMaxFloors:
+  identifier: RCGMaxFloors
+  default_value: 3
+  display: 
+  operation_type: short
+
+RCGCityDensity:
+  identifier: RCGCityDensity
+  default_value: 50
+  display: 
+  operation_type: short
+
+FreeForAllOperation:
+  identifier: FreeForAllOperation
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+MinNumberOfPlayers:
+  identifier: MinNumberOfPlayers
+  default_value: 3
+  display: 
+  operation_type: short
+  export: true
+
+TeamOperation:
+  identifier: TeamOperation
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+NumberOfTeams:
+  identifier: NumberOfTeams
+  default_value: 2
+  display: 
+  operation_type: short
+  export: true
+
+TeamSize:
+  identifier: TeamSize
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+TeamsMustBeSameFaction:
+  identifier: TeamsMustBeSameFaction
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+RandomTeamDetermination:
+  identifier: RandomTeamDetermination
+  default_value: false
+  display: 
+  operation_type: short
+
+NumberOfVictoryConditions:
+  identifier: NumberOfVictoryConditions
+  default_value: 0
+  display: 
+  operation_type: short
+
+UseDestroyEnemyBV:
+  identifier: UseDestroyEnemyBV
+  default_value: false
+  display: 
+  operation_type: short
+
+DestroyEnemyBV:
+  identifier: DestroyEnemyBV
+  default_value: 100
+  display: 
+  operation_type: short
+
+UseBVRatioPercent:
+  identifier: UseBVRatioPercent
+  default_value: false
+  display: 
+  operation_type: short
+
+BVRatioPercent:
+  identifier: BVRatioPercent
+  default_value: 300
+  display: 
+  operation_type: short
+
+UseUnitCommander:
+  identifier: UseUnitCommander
+  default_value: false
+  display: 
+  operation_type: short
+
+MinimumUnitCommanders:
+  identifier: MinimumUnitCommanders
+  default_value: 1
+  display: 
+  operation_type: short
+
+MaximumUnitCommanders:
+  identifier: MaximumUnitCommanders
+  default_value: 1
+  display: 
+  operation_type: short
+
+RandomDeployment:
+  identifier: RandomDeployment
+  default_value: false
+  display: 
+  operation_type: short
+  export: true
+
+DeployNorthwest:
+  identifier: DeployNorthwest
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeployNorth:
+  identifier: DeployNorth
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeployNortheast:
+  identifier: DeployNortheast
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeployEast:
+  identifier: DeployEast
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeploySoutheast:
+  identifier: DeploySoutheast
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeploySouth:
+  identifier: DeploySouth
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeploySouthwest:
+  identifier: DeploySouthwest
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeployWest:
+  identifier: DeployWest
+  default_value: 1
+  display: 
+  operation_type: short
+  export: true
+
+DeployEdge:
+  identifier: DeployEdge
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeployCenter:
+  identifier: DeployCenter
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeployNorthwestdeep:
+  identifier: DeployNorthwestdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeployNorthdeep:
+  identifier: DeployNorthdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeployNortheastdeep:
+  identifier: DeployNortheastdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeployEastdeep:
+  identifier: DeployEastdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeploySoutheastdeep:
+  identifier: DeploySoutheastdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeploySouthdeep:
+  identifier: DeploySouthdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeploySouthwestdeep:
+  identifier: DeploySouthwestdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+DeployWestdeep:
+  identifier: DeployWestdeep
+  default_value: 0
+  display: 
+  operation_type: short
+  export: true
+
+UseOperationMap:
+  identifier: UseOperationMap
+  default_value: false
+  display: 
+  operation_type: short
+
+MapName:
+  identifier: MapName
+  default_value: generated
+  display: 
+  operation_type: short
+
+BoardSizeX:
+  identifier: BoardSizeX
+  default_value: 0
+  display: 
+  operation_type: short
+
+BoardSizeY:
+  identifier: BoardSizeY
+  default_value: 0
+  display: 
+  operation_type: short
+
+MapSizeX:
+  identifier: MapSizeX
+  default_value: 0
+  display: 
+  operation_type: short
+
+MapSizeY:
+  identifier: MapSizeY
+  default_value: 0
+  display: 
+  operation_type: short
+
+MapMedium:
+  identifier: MapMedium
+  default_value: 0
+  display: 
+  operation_type: short
+
+LAttackerBaseConquestAmount:
+  identifier: LAttackerBaseConquestAmount
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerConquestBVAdjustment:
+  identifier: LAttackerConquestBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerConquestUnitAdjustment:
+  identifier: LAttackerConquestUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderBaseConquestAmount:
+  identifier: LDefenderBaseConquestAmount
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderConquestBVAdjustment:
+  identifier: LDefenderConquestBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderConquestUnitAdjustment:
+  identifier: LDefenderConquestUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerBaseDelayAmount:
+  identifier: LAttackerBaseDelayAmount
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerDelayBVAdjustment:
+  identifier: LAttackerDelayBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerDelayUnitAdjustment:
+  identifier: LAttackerDelayUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderBaseDelayAmount:
+  identifier: LDefenderBaseDelayAmount
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderDelayBVAdjustment:
+  identifier: LDefenderDelayBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderDelayUnitAdjustment:
+  identifier: LDefenderDelayUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerBasePPAmount:
+  identifier: LAttackerBasePPAmount
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerPPBVAdjustment:
+  identifier: LAttackerPPBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerPPUnitAdjustment:
+  identifier: LAttackerPPUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderBasePPAmount:
+  identifier: LDefenderBasePPAmount
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderPPBVAdjustment:
+  identifier: LDefenderPPBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderPPUnitAdjustment:
+  identifier: LDefenderPPUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerBaseUnitsTaken:
+  identifier: LAttackerBaseUnitsTaken
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerUnitsBVAdjustment:
+  identifier: LAttackerUnitsBVAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerUnitsUnitAdjustment:
+  identifier: LAttackerUnitsUnitAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LAttackerTargetOpAdjustment:
+  identifier: LAttackerTargetOpAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LDefenderTargetOpAdjustment:
+  identifier: LDefenderTargetOpAdjustment
+  default_value: 0
+  display: 
+  operation_type: long
+
+LConquestAmountCap:
+  identifier: LConquestAmountCap
+  default_value: 10000000
+  display: 
+  operation_type: long
+
+LDelayAmountCap:
+  identifier: LDelayAmountCap
+  default_value: 10000000
+  display: 
+  operation_type: long
+
+LPPCapptureCap:
+  identifier: LPPCapptureCap
+  default_value: 10000000
+  display: 
+  operation_type: long
+
+LUnitCaptureCap:
+  identifier: LUnitCaptureCap
+  default_value: 10000000
+  display: 
+  operation_type: long
+
+LHouseLaunchMoney:
+  identifier: LHouseLaunchMoney
+  default_value: 0
+  display: 
+  operation_type: long
+
+LHouseLaunchActions:
+  identifier: LHouseLaunchActions
+  default_value: 0
+  display: 
+  operation_type: long
+
+LPlayerLaunchMoney:
+  identifier: LPlayerLaunchMoney
+  default_value: 0
+  display: 
+  operation_type: long
+
+LPlayerLaunchReward:
+  identifier: LPlayerLaunchReward
+  default_value: 0
+  display: 
+  operation_type: long
+
+LPlayerLaunchFlu:
+  identifier: LPlayerLaunchFlu
+  default_value: 0
+  display: 
+  operation_type: long
+
+LPlayerLaunchExp:
+  identifier: LPlayerLaunchExp
+  default_value: 0
+  display: 
+  operation_type: long
+
+LPlayerLaunchMezzo:
+  identifier: LPlayerLaunchMezzo
+  default_value: 0
+  display: 
+  operation_type: long
+
+IgnorePilotsForBVSpread:
+  identifier: IgnorePilotsForBVSpread
+  default_value: false
+  display: 
+  operation_type: long
+
+UseClanEquipmentRatios:
+  identifier: UseClanEquipmentRatios
+  default_value: false
+  display: 
+  operation_type: long
+
+AttackerMaxClanEquipmentPercent:
+  identifier: AttackerMaxClanEquipmentPercent
+  default_value: 100.0
+  display: 
+  operation_type: long
+
+AttackerMinClanEquipmentPercent:
+  identifier: AttackerMinClanEquipmentPercent
+  default_value: 0.0
+  display: 
+  operation_type: long
+
+DefenderMaxClanEquipmentPercent:
+  identifier: DefenderMaxClanEquipmentPercent
+  default_value: 100.0
+  display: 
+  operation_type: long
+
+DefenderMinClanEquipmentPercent:
+  identifier: DefenderMinClanEquipmentPercent
+  default_value: 0.0
+  display: 
+  operation_type: long
+
+CountSupportUnits:
+  identifier: CountSupportUnits
+  default_value: True
+  display: 
+  operation_type: long
+
+MinAttackerSupportUnits:
+  identifier: MinAttackerSupportUnits
+  default_value: 0
+  display: 
+  operation_type: long
+
+MaxAttackerSupportUnits:
+  identifier: MaxAttackerSupportUnits
+  default_value: 999
+  display: 
+  operation_type: long
+
+MinDefenderSupportUnits:
+  identifier: MinDefenderSupportUnits
+  default_value: 0
+  display: 
+  operation_type: long
+
+MaxDefenderSupportUnits:
+  identifier: MaxDefenderSupportUnits
+  default_value: 999
+  display: 
+  operation_type: long
+
+CountSupportUnitsForSpread:
+  identifier: CountSupportUnitsForSpread
+  default_value: true
+  display: 
+  operation_type: long
+
+EnforceAttackerSupportRatio:
+  identifier: EnforceAttackerSupportRatio
+  default_value: false
+  display: 
+  operation_type: long
+
+EnforceDefenderSupportRatio:
+  identifier: EnforceDefenderSupportRatio
+  default_value: false
+  display: 
+  operation_type: long
+
+MaxDefenderSupportPercent:
+  identifier: MaxDefenderSupportPercent
+  default_value: 100
+  display: 
+  operation_type: long
+
+MinDefenderSupportPercent:
+  identifier: MinDefenderSupportPercent
+  default_value: 0
+  display: 
+  operation_type: long
+
+MaxAttackerSupportPercent:
+  identifier: MaxAttackerSupportPercent
+  default_value: 100
+  display: 
+  operation_type: long
+
+MinAttackerSupportPercent:
+  identifier: MinAttackerSupportPercent
+  default_value: 0
+  display: 
+  operation_type: long
+
+AttackerFlags:
+  identifier: AttackerFlags
+  default_value: 
+  display: 
+  operation_type: long
+
+DefenderFlags:
+  identifier: DefenderFlags
+  default_value: 
+  display: 
+  operation_type: long
+
+WinnerFlags:
+  identifier: WinnerFlags
+  default_value: 
+  display: 
+  operation_type: long
+
+LoserFlags:
+  identifier: LoserFlags
+  default_value: 
+  display: 
+  operation_type: long

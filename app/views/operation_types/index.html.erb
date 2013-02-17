@@ -1,0 +1,25 @@
+<h1>Listing operation_types</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Export</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @operation_types.each do |operation_type| %>
+  <tr>
+    <td><%= operation_type.name %></td>
+    <td><%= operation_type.export %></td>
+    <td><%= link_to 'Show', operation_type %></td>
+    <td><%= link_to 'Edit', edit_operation_type_path(operation_type) %></td>
+    <td><%= link_to 'Destroy', operation_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Operation type', new_operation_type_path %>

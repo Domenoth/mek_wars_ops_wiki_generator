@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+short:
+  name: Short
+  export: true
+
+long:
+  name: Long
+  export: false
+
+special:
+  name: Special
+  export: false
