@@ -1,5 +1,0 @@
-<%- OperationSetting.order( :identifier ).where( export: true ).each do |setting| %>
-<p>
-  <h3><%= setting.display || setting.identifier %>:</h3> <%= display_value @passed_in_settings[setting.identifier] || setting.default_value %>
-</p>
-<%- end %>

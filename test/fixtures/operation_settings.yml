@@ -1,4 +1,172 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+OperationColor:
+  identifier: OperationColor
+  default_value: "#33FFFF"
+  display: 
+  operation_type: 
+
+OperationRange:
+  identifier: OperationRange
+  default_value: 30
+  display: 
+  operation_type: 
+
+OnlyAgainstFactoryWorlds:
+  identifier: OnlyAgainstFactoryWorlds
+  default_value: false
+  display: 
+  operation_type: 
+
+OnlyAgainstNonFactoryWorlds:
+  identifier: OnlyAgainstNonFactoryWorlds
+  default_value: false
+  display: 
+  operation_type: 
+
+PercentageToAttackOnWorld:
+  identifier: PercentageToAttackOnWorld
+  default_value: 50
+  display: 
+  operation_type: 
+
+PercentageToAttackOffWorld:
+  identifier: PercentageToAttackOffWorld
+  default_value: 50
+  display: 
+  operation_type: 
+
+MinPlanetOwnership:
+  identifier: MinPlanetOwnership
+  default_value: 0
+  display: 
+  operation_type: 
+
+MaxPlanetOwnership:
+  identifier: MaxPlanetOwnership
+  default_value: 100
+  display: 
+  operation_type: 
+
+OnlyAgainstHomeWorlds:
+  identifier: OnlyAgainstHomeWorlds
+  default_value: false
+  display: 
+  operation_type: 
+
+OnlyAgainstNonHomeWorlds:
+  identifier: OnlyAgainstNonHomeWorlds
+  default_value: false
+  display: 
+  operation_type: 
+
+RealBlindDrop:
+  identifier: RealBlindDrop
+  default_value: false
+  display: 
+  operation_type: 
+
+ReportOpToNewsFeed:
+  identifier: ReportOpToNewsFeed
+  default_value: false
+  display: 
+  operation_type: 
+
+DoesNotCountForPP:
+  identifier: DoesNotCountForPP
+  default_value: false
+  display: 
+  operation_type: 
+
+AllowPlanetFlags:
+  identifier: AllowPlanetFlags
+  default_value: 
+  display: 
+  operation_type: 
+
+DisallowPlanetFlags:
+  identifier: DisallowPlanetFlags
+  default_value: 
+  display: 
+  operation_type: 
+
+ForbidCounterAttacks:
+  identifier: ForbidCounterAttacks
+  default_value: false
+  display: 
+  operation_type: 
+
+OnlyAllowedFromReserve:
+  identifier: OnlyAllowedFromReserve
+  default_value: false
+  display: 
+  operation_type: 
+
+OnlyAllowedFromActive:
+  identifier: OnlyAllowedFromActive
+  default_value: false
+  display: 
+  operation_type: 
+
+IndividualInit:
+  identifier: IndividualInit
+  default_value: false
+  display: 
+  operation_type: 
+
+MaxELODifference:
+  identifier: MaxELODifference
+  default_value: 0
+  display: 
+  operation_type: 
+
+MinSubFactionAccessLevel:
+  identifier: MinSubFactionAccessLevel
+  default_value: 0
+  display: 
+  operation_type: 
+
+MaxBVDifference:
+  identifier: MaxBVDifference
+  default_value: 150
+  display: 
+  operation_type: 
+
+MaxBVPercent:
+  identifier: MaxBVPercent
+  default_value: 0.0
+  display: 
+  operation_type: 
+
+NightChance:
+  identifier: NightChance
+  default_value: 0
+  display: 
+  operation_type: 
+
+DuskChance:
+  identifier: DuskChance
+  default_value: 0
+  display: 
+  operation_type: 
+
+AttackerBriefing:
+  identifier: AttackerBriefing
+  default_value: 
+  display: 
+  operation_type: 
+
+DefenderBriefing:
+  identifier: DefenderBriefing
+  default_value: 
+  display: 
+  operation_type: 
+
+AutoresolveBattle:
+  identifier: AutoresolveBattle
+  default_value: false
+  display: 
+  operation_type: 
+
 MaxAttackerBV:
   identifier: MaxAttackerBV
   default_value: 10000000

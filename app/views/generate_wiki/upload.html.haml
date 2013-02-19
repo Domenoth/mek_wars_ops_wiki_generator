@@ -1,0 +1,72 @@
+%h1#firstHeading.firstHeading
+  %span{ dir: :auto }Op Name
+#bodyContent
+  #mw-content-text.mw-content-ltr{ lang: :en, dir: :ltr }
+    %h2
+      %span.mw-headline Force Description
+    %dl
+      %dt
+        Army Composition
+        %dd
+          %dl
+            %dt Attacker
+            = render partial: "range", locals: { range_name: "BV", identifier1: "MinAttackerBV", identifier2: "MaxAttackerBV" }
+            = render partial: "standard_setting", locals: { name: "Maximum BV Spread", identifier: "MaxAttackerUnitBVSpread" }
+            = render partial: "standard_setting", locals: { name: "Meks Allowed", identifier: "AttackerAllowedMeks" }
+            - if value?( "AttackerAllowedMeks" )
+              = render partial: "range", locals: { range_name: "Mek", identifier1: "MinAttackerMeks", identifier2: "MaxAttackerMeks" }
+            = render partial: "standard_setting", locals: { name: "Vehicles Allowed", identifier: "AttackerAllowedVehs" }
+            - if value?( "AttackerAllowedVehs" )
+              = render partial: "range", locals: { range_name: "Vehicle", identifier1: "MinAttackerVehicles", identifier2: "MaxAttackerVehicles" }
+            = render partial: "standard_setting", locals: { name: "Infantry Allowed", identifier: "AttackerAllowedInf" }
+            - if value?( "AttackerAllowedInf" )
+              = render partial: "range", locals: { range_name: "Infantry", identifier1: "MinAttackerInfantry", identifier2: "MaxAttackerInfantry" }
+            = render partial: "standard_setting", locals: { name: "Aeros Allowed", identifier: "AttackerAllowedAeros" }
+            - if value?( "AttackerAllowedAeros" )
+              = render partial: "range", locals: { range_name: "Aeros", identifier1: "MinAttackerAero", identifier2: "MaxAttackerAero" }
+            %dt Defender
+            = render partial: "range", locals: { range_name: "BV", identifier1: "MinDefenderBV", identifier2: "MaxDefenderBV" }
+            = render partial: "standard_setting", locals: { name: "Maximum BV Spread", identifier: "MaxDefenderUnitBVSpread" }
+            = render partial: "standard_setting", locals: { name: "Meks Allowed", identifier: "DefenderAllowedMeks" }
+            = render partial: "standard_setting", locals: { name: "Vehicles Allowed", identifier: "DefenderAllowedVehs" }
+            = render partial: "standard_setting", locals: { name: "Infantry Allowed", identifier: "DefenderAllowedInf" }
+            = render partial: "standard_setting", locals: { name: "Aeros Allowed", identifier: "DefenderAllowedAeros" }
+      %dt
+        Unit Restrictions
+        %dd
+          %dl
+            %dt Attacker
+            = render partial: "standard_setting", locals: { name: "Max Tonnage Per Unit", identifier: "MaxAttackerUnitTonnage" }
+            = render partial: "standard_setting", locals: { name: "Minimum Walking MP", identifier: "MinAttackerWalk" }
+            = render partial: "standard_setting", locals: { name: "Minimum Jumping MP", identifier: "MinAttackerJump" }
+            = render partial: "standard_setting", locals: { name: "Maximum Jumping MP", identifier: "MaxAttackerJump" }
+            %dt Defender
+            = render partial: "standard_setting", locals: { name: "Max Tonnage Per Unit", identifier: "MaxDefenderUnitTonnage" }
+            = render partial: "standard_setting", locals: { name: "Minimum Walking MP", identifier: "MinDefenderWalk" }
+            = render partial: "standard_setting", locals: { name: "Minimum Jumping MP", identifier: "MinDefenderJump" }
+            = render partial: "standard_setting", locals: { name: "Maximum Jumping MP", identifier: "MaxDefenderJump" }
+    %h2
+      %span.mw-headline Operation Description
+    %dl
+      %dt Valid Targets
+      = render partial: "standard_setting", locals: { name: "Only Non-Capital Worlds", identifier: "OnlyAgainstNonHomeWorlds" }
+      = render partial: "standard_setting", locals: { name: "Only Non-Factory Worlds", identifier: "OnlyAgainstNonFactoryWorlds" }
+      = render partial: "standard_setting", locals: { name: "Only Factory Worlds", identifier: "OnlyAgainstFactoryWorlds" }
+      = render partial: "standard_setting", locals: { name: "Only Capital Worlds", identifier: "OnlyAgainstHomeWorlds" }
+      %dt Deployment
+      = render partial: "standard_setting", locals: { name: "Random", identifier: "RandomDeployment" }
+      %dd
+        = "Chance for Edge: #{ any_values?( [ "DeployNorthwest", "DeployNorth", "DeployNortheast", "DeployWest", "DeployEast", "DeploySouthwest", "DeploySouth", "DeploySoutheast" ] ) ? "true" : "false" }"
+      %dd
+        = "Chance for Deep: #{ any_values?( [ "DeployNorthwestdeep", "DeployNorthdeep", "DeployNortheastdeep", "DeployWestdeep", "DeployEastdeep", "DeploySouthwestdeep", "DeploySouthdeep", "DeploySoutheastdeep" ] ) ? "true" : "false" }"
+      %dd
+        = "Chance for Center: #{ value?( "DeployCenter" ) ? "true" : "false" }"
+      %dt Participants
+      %dd
+        %dl
+          %dt Attacker
+          = render partial: "range", locals: { range_name: "Experience", identifier1: "MinAttackerXP", identifier2: "MaxAttackerXP" }
+          = render partial: "range", locals: { range_name: "Rating", identifier1: "MinAttackerRating", identifier2: "MaxAttackerRating" }
+          %dt Defender
+          = render partial: "range", locals: { range_name: "Experience", identifier1: "MinDefenderXP", identifier2: "MaxDefenderXP" }
+          = render partial: "range", locals: { range_name: "Rating", identifier1: "MinDefenderRating", identifier2: "MaxDefenderRating" }

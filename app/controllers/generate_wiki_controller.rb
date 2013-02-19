@@ -18,8 +18,7 @@ class GenerateWikiController < ApplicationController
     @file.read.each_line do |line|
       key, value = line.split( "=" )
       if key.present? and value.present?
-        setting = OperationSetting.find_by_identifier( key.strip )
-        @passed_in_settings[setting] = value.strip
+        @passed_in_settings[key.strip] = value.strip
       end
     end
   end
