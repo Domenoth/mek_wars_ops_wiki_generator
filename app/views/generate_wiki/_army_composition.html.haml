@@ -1,0 +1,18 @@
+\|-
+\! colspan="4"| #{subject}
+\|-
+= render partial: "range", locals: { range_name: "BV", identifier1: "Min#{subject}BV", identifier2: "Max#{subject}BV" }
+= render partial: "standard_setting", locals: { name: "Maximum BV Spread", identifier: "Max#{subject}UnitBVSpread" }
+\|-
+= render partial: "standard_setting", locals: { name: "Meks Allowed", identifier: "#{subject}AllowedMeks" }
+= render partial: "range", locals: { range_name: "Mek", identifier1: "Min#{subject}Meks", identifier2: "Max#{subject}Meks" }
+\|-
+= render partial: "standard_setting", locals: { name: "Vehicles Allowed", identifier: "#{subject}AllowedVehs" }
+= render partial: "range", locals: { range_name: "Vehicle", identifier1: "Min#{subject}Vehicles", identifier2: "Max#{subject}Vehicles" }
+\|-
+= render partial: "standard_setting", locals: { name: "Infantry Allowed", identifier: "#{subject}AllowedInf" }
+= render partial: "range", locals: { range_name: "Infantry", identifier1: "Min#{subject}Infantry", identifier2: "Max#{subject}Infantry" }
+\|-
+= render partial: "standard_setting", locals: { name: "Aeros Allowed", identifier: "#{subject}AllowedAeros" }
+= render partial: "range", locals: { range_name: "Aeros", identifier1: "Min#{subject}Aero", identifier2: "Max#{subject}Aero" }
+\|-

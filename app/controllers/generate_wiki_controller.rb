@@ -1,4 +1,5 @@
 class GenerateWikiController < ApplicationController
+  layout false
   def form
   end
 
