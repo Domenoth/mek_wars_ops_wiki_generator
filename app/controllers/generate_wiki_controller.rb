@@ -11,7 +11,7 @@ class GenerateWikiController < ApplicationController
     if @files.present?
       io_string = parse_files
       io_string.rewind
-      send_data io_string.read, filename: "wiki_ops.zip", type: "text/zip"
+      send_data io_string.read, filename: "wiki_ops.zip", type: "application/zip"
     else
       redirect_to root_path, notice: "Please Upload a File"
     end
