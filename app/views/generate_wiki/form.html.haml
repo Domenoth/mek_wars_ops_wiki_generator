@@ -1,0 +1,6 @@
+= form_tag( generate_wiki_upload_path, multipart: true ) do
+  = select_tag :operation_type, options_for_select( OperationType.order( :name ).collect {|o| [ o.name, o.id ] }, params[:operation_type] || OperationType.find_by_name( "Short" ).id )
+  = submit_tag "Upload"
+  - 15.times do |i|
+    %p
+      = file_field_tag "op_file[]", id: "op_file_#{i}"
